@@ -44,6 +44,25 @@
   text-decoration: underline;
 }
 
+.projects .projects__content .secondary-title{
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:texth1 5s 1s normal infinite steps(40) both ;
+  }
+  
+  @keyframes texth1{
+    from {
+      width: 0;
+    }
+    to {
+      width: 11em;
+    }
+  }
+  
+  
+
+
 @media only screen and (max-width: 768px) {
   .projects ul li,
   .projects ul li.projects__reversed-list {
@@ -56,5 +75,9 @@
 
   .projects ul li .image img {
     min-width: auto;
+  }
+
+  .projects .projects__content .secondary-title{
+    font-size: 32px;
   }
 }
