@@ -114,6 +114,10 @@ p:not(:last-of-type),
   html {
     font-size: 58%;
   }
+  
+  .perfil{
+    width: 400px;
+  }
 
   .max-width {
     padding: 0 2rem;
