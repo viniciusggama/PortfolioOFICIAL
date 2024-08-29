@@ -22,6 +22,8 @@ header .header__right .header__image {
   line-height: 0;
 }
 
+/*
+responsavel por exibir linha atras da foto perfil
 header .header__right .header__image::after {
   content: '';
   display: block;
@@ -33,7 +35,7 @@ header .header__right .header__image::after {
   right: -1.5rem;
   border-radius: 0.5rem;
   z-index: -1;
-}
+}*/
 
 
 
