@@ -32,6 +32,10 @@
   max-width: 66rem;
 }
 
+.about .secondary-title{
+  visibility: hidden;
+}
+
 @media only screen and (max-width: 768px) {
   .about {
     flex-direction: column;
