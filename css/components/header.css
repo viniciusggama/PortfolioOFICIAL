@@ -63,4 +63,8 @@ header .btn-primary{
   header .header__left p {
     margin: 2rem auto 4rem;
   }
+
+  header .header__image .perfil{
+    width:350px;
+  }
 }
