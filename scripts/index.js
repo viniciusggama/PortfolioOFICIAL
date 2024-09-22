@@ -21,3 +21,8 @@ sr.reveal('.btn-primary',{
   rotate:{ x: 100, y: 100, z: 0},
   duration:1000,
 })
+
+sr.reveal('.icons',{
+  rotate:{ x: 100, y: 100, z: 0},
+  duration:3000,
+})

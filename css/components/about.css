@@ -36,6 +36,11 @@
   visibility: hidden;
 }
 
+.about .icons{
+  visibility: hidden;
+}
+
+
 @media only screen and (max-width: 768px) {
   .about {
     flex-direction: column;
